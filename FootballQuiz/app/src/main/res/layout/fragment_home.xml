@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back3"
+        android:layout_gravity="start"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <ImageView
+            android:layout_marginTop="-60dp"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            app:srcCompat="@drawable/footballquiz_logo_2" />
+
+    <Button
+        android:id="@+id/ligaprvakabutton"
+        android:layout_marginTop="-80dp"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        app:backgroundTint="@color/orange"
+        android:text="Liga prvaka" />
+
+    <Button
+        android:id="@+id/spiepbutton"
+        android:layout_marginTop="10dp"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        app:backgroundTint="@color/orange"
+        android:text="Svjetsko i Europsko prvenstvo" />
+
+    <Button
+        android:id="@+id/ligapeticebutton"
+        android:layout_marginTop="10dp"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        app:backgroundTint="@color/orange"
+        android:text="Liga petice" />
+
+
+
+
+
+</LinearLayout>

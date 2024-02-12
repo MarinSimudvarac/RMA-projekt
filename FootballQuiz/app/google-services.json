@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1038919281431",
+    "firebase_url": "https://rma-projekt-28578-default-rtdb.firebaseio.com",
+    "project_id": "rma-projekt-28578",
+    "storage_bucket": "rma-projekt-28578.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038919281431:android:908174186185172135e552",
+        "android_client_info": {
+          "package_name": "com.example.footballquiz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEF0ySe2ygVbfsg1uFXDb5orzs14L0qlI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ligaprvaka_back1"/>
+
+    <TextView
+        android:id="@+id/pravilaIgreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pravila igre:"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/pravilo1TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Kviz se sastoji od 3 kategorije:\nlaka kategorija, srednje teška i teška."
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"/>
+
+    <TextView
+        android:id="@+id/pravilo2TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. U svakoj kategoriji slučajnim odabirom\nizvlače se po 3 pitanja."
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"/>
+
+    <TextView
+        android:id="@+id/pravilo3TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. Svako pitanje je vremenski ograničeno."
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp"/>
+
+    <TextView
+        android:id="@+id/pravilo4TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4. Laka kategorija je ujedno i eliminacijska, što\nznači da se na sva 3 pitanja mora točno odgovoriti\nkako bi nastavili."
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="530dp"/>
+
+    <TextView
+        android:id="@+id/pravilo5TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5. U drugim dvjema kategorijama skupljaju se\nbodovi u ovisnosti o odgovoru i brzini točnog odgovora."
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"/>
+
+    <TextView
+        android:id="@+id/uspjehTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Želimo ti puno uspjeha!"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/orange"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="650dp"/>
+
+    <Button
+        android:id="@+id/buttonZapocni"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Započni"
+        android:backgroundTint="@color/orange"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="680dp"/>
+
+
+</RelativeLayout>
